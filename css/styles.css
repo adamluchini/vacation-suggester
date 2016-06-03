@@ -7,31 +7,7 @@
   background-image: url(../img/clouds.jpg);
 }
 
-#portland {
-  display: none;
-}
-
-#bend {
-  display: none;
-}
-
-#foam-lake {
-  display: none;
-}
-
-#chicago {
-  display: none;
-}
-
-#brit-columbia {
-  display: none;
-}
-
-#reno {
-  display: none;
-}
-
-#mt-hood {
+#portland, #bend, #foam-lake, #chicago, #brit-columbia, #reno, #mt-hood {
   display: none;
 }
 

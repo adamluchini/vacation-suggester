@@ -34,6 +34,9 @@ $(document).ready(function() {
   $("#portland").show();
   }
 
+  else {
+    alert ("I need some more information");
+  }
   event.preventDefault();
  });
 });

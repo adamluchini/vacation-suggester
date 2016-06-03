@@ -10,3 +10,23 @@
 #portland {
   display: none;
 }
+
+#bend {
+  display: none;
+}
+
+#foam-lake {
+  display: none;
+}
+
+.question-grid {
+  font-size: 20px;
+  padding: 10px;
+  height: 100%;
+}
+
+.results-grid {
+  font-size: 20px;
+  margin: 40px;
+  padding: 40px;
+}

@@ -19,9 +19,18 @@
   display: none;
 }
 
+#chicago {
+  display: none;
+}
+
+#brit-columbia {
+  display: none;
+}
+
 .question-grid {
   font-size: 20px;
-  padding: 10px;
+  text-align: center;
+  padding: 30px;
   height: 100%;
 }
 

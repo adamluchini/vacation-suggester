@@ -6,11 +6,15 @@ $(document).ready(function() {
   var drinks = $("select#drinks").val();
   var passport = $("select#passport").val();
 
-  if (distance === "far" && setting === "desolate" && company === "romantic" || "friends" && drinks === "booze" || "tea" && passport === "pp"){
+  if (distance === "far" && setting === "desolate" && company === ("romantic" || "friends") && drinks === ("booze" || "tea") && passport === "pp"){
   $("#foam-lake").show();
   }
 
-  else if (distance === "close" && setting === "desolate") {
+  else if (distance === "far" && setting === "urban" && company === ("romantic" || "friends" ) && drinks === ("booze" || "tea") && passport === ("pp" || "no-pp")){
+  $("#chicago").show();
+  }
+
+  else if (distance === "close" && setting === "desolate" && company === ("romantic" || "friends") && drinks === ("booze" || "tea") && passport === ("pp" || "no-pp")) {
   $("#bend").show();
   }
 

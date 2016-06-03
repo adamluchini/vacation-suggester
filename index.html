@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css"></link>
+    <link href="css/bootstrap-theme.css" rel="stylesheet" type="text/css"></link>
+    <link href="css/styles.css" rel="stylesheet" type="text/css"></link>
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Vacation Suggester</title>
+  </head>
+   <body class=background-image>
+    <div class="jumbotron">
+     <div class="container">
+       <h1>Need a vacation?</h1>
+       <p>Cool. Let's figure out where.</p>
+     </div>
+    </div>
+
+    <div class="question-grid">
+     <div class="row">
+       <div class="col-md-12">
+         <form id="questions">
+           <label for="distance">Do you want to go far, far away?</label>
+           <select id="distance">
+             <option value="close">Yes, farther the better</option>
+             <option value="far">No, somewhere close by</option>
+           </select>
+
+     <div class="row">
+       <div class="col-md-12">
+         <form id="questions">
+           <label for="culture">Somewhere with plenty of people?</label>
+           <select id="culture">
+             <option value="urban">Yeah, I love the city</option>
+             <option value="desolate">No way, crowds give me anxiety</option>
+           </select>
+    </div>
+      <button type="submit" class="btn btn-danger">Where should I go?</button>
+
+    <div class="results-grid">
+      <div class="row">
+       <div class="col-md-12">
+        <div id="portland">
+          <h1>Portland!</h1>
+        </div>
+       </div>
+     </div>
+   </div>
+
+
+
+
+  </body>
+</html>

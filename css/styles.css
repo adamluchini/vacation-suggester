@@ -1,0 +1,12 @@
+.jumbotron {
+  text-align: center;
+  background-image: url(../img/clouds.jpg);
+}
+
+.background-image {
+  background-image: url(../img/clouds.jpg);
+}
+
+#portland {
+  display: none;
+}

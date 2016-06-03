@@ -27,6 +27,14 @@
   display: none;
 }
 
+#reno {
+  display: none;
+}
+
+#mt-hood {
+  display: none;
+}
+
 .question-grid {
   font-size: 20px;
   text-align: center;
